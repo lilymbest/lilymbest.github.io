@@ -1,0 +1,190 @@
+body {
+	height: 100%;
+	background-color:#D8F9F2;
+	display: flex;
+}
+
+.sidebar {
+	flex: .7;
+	width: 200px;
+	background-color: #C6C0E4;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	margin-bottom: -5000px; /* any large number will do */
+	padding-bottom: 5000px;
+	margin-top: -5000px; /* any large number will do */
+	padding-top: 5000px;
+	margin-left: -5000px; /* any large number will do */
+	padding-left: 5000px; 
+	font-family: 'Staatliches'
+	
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+	display: block;
+	color: black;
+	padding: 60px;
+	font-size: 24px;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-left: 0px; /* any large number will do */
+	padding-left: 50px;
+	font-family: 'Staatliches';
+  }
+  
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+	margin-left: 200px;
+	height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+	.sidebar {
+	  width: 100%;
+	  height: auto;
+	  position: relative;
+	}
+	.sidebar a {float: left;}
+	div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+	.sidebar a {
+	  text-align: center;
+	  float: none;
+	}
+  }
+
+img.logo {
+	height: 100px;
+	width: 145px;
+	padding: 30px;
+	margin-left: -10px; /* any large number will do */
+  }
+
+a.alogo {
+	display: block;
+	height: 50px;
+	width: 50px;
+	align-items: center;
+  }
+
+main {
+	flex: 3;
+	margin: 0px;
+}
+
+video.project1, video.project2 {
+	
+	border: 7px solid #FEE5EC;
+	margin-left: 200px;
+	height: 365px;
+	width: 650px;
+	margin-bottom: 0px;
+}
+
+video {
+	margin-bottom: 0px;
+}
+
+div.video {
+	margin-left: 200px;
+	margin: 100px;
+	display: block;
+	height: 405px;
+	width: 655px;
+	margin-bottom: 45px;
+  }
+
+  video::-webkit-media-controls {
+    display:none !important;
+}
+
+div.info-card {
+	border: 7px solid #FEE5EC;
+	background-color:  #FEE5EC;
+	margin-left: 200px;
+	height: 100px;
+	width: 650px;
+	margin-top: -15px;
+	margin-bottom: 25px;
+	display: grid;
+	grid-template-columns: 150px 350px 75px 75px;
+	grid-template-rows: 100px;
+	font-family: 'Staatliches';
+}
+
+li {
+	margin-top: 10px;
+	font-family: 'Staatliches';
+}
+
+ul {
+	font-family: 'Staatliches';
+	grid-column-start: 1;
+	grid-row-start: 1;
+	margin-top: 15px;
+	font-size: 14px;
+	list-style-type: circle !important;
+}
+
+h4 {
+	font-family: 'Staatliches';
+	grid-column-start: 1;
+	grid-row-start: 1;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+img.github {
+	height: 45px;
+	width: 45px;
+	grid-column-start: 3;
+	grid-row-start: 1;
+	margin: 15px;
+	margin-top: 35px;
+}
+
+img.deployed {
+	height: 45px;
+	width: 45px;
+	grid-column-start: 4;
+	grid-row-start: 1;
+	margin: 15px;
+	margin-top: 35px;
+}
+
+a.github {
+	grid-column-start: 3;
+	grid-row-start: 1;
+}
+
+a.deployed {
+	grid-column-start: 4;
+	grid-row-start: 1;
+}
+
+div.contact-card {
+	margin-top: -50px;
+	margin: 100px;
+	margin-top: -50px;
+	margin-left: 350px;
+	display: block;
+	height: 305px;
+	width: 355px;
+	background-color: #FEE5EC;
+	color: black;
+	display: block;
+}
+
+h3 {
+	margin: 75px;
+	position: relative;
+}
