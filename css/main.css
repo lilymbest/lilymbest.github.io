@@ -79,13 +79,13 @@ main {
 	margin: 0px;
 }
 
-video.project1, video.project2 {
-	
+video.project1, video.project2, video.project3, video.project4, video.project5 {
 	border: 7px solid #FEE5EC;
 	margin-left: 200px;
 	height: 365px;
 	width: 650px;
 	margin-bottom: 0px;
+	object-fit: cover;
 }
 
 video {
@@ -172,9 +172,7 @@ a.deployed {
 }
 
 div.contact-card {
-	margin-top: -50px;
-	margin: 100px;
-	margin-top: -50px;
+	margin-top: 20px;
 	margin-left: 350px;
 	display: block;
 	height: 305px;
@@ -187,4 +185,13 @@ div.contact-card {
 h3 {
 	margin: 75px;
 	position: relative;
+}
+
+video.projec2 {
+	object-fit: cover;
+}
+
+p.description {
+	grid-column-start: 2;
+	grid-row-start: 1;
 }
