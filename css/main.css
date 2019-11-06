@@ -109,23 +109,23 @@ div.info-card {
 	border: 7px solid #FEE5EC;
 	background-color:  #FEE5EC;
 	margin-left: 200px;
-	height: 100px;
+	height: 125px;
 	width: 650px;
 	margin-top: -15px;
-	margin-bottom: 25px;
+	margin-bottom: 55px;
 	display: grid;
 	grid-template-columns: 150px 350px 75px 75px;
 	grid-template-rows: 100px;
-	font-family: 'Staatliches';
+	font-family: 'Nunito Sans';
 }
 
 li {
 	margin-top: 10px;
-	font-family: 'Staatliches';
+	font-family: 'Nunito Sans';
 }
 
 ul {
-	font-family: 'Staatliches';
+	font-family: 'Nunito Sans';
 	grid-column-start: 1;
 	grid-row-start: 1;
 	margin-top: 15px;
@@ -134,7 +134,7 @@ ul {
 }
 
 h4 {
-	font-family: 'Staatliches';
+	font-family: 'Nunito Sans';
 	grid-column-start: 1;
 	grid-row-start: 1;
 	margin-top: 5px;
@@ -183,6 +183,7 @@ div.contact-card {
 }
 
 h3 {
+	font-family: 'Nunito Sans';
 	margin: 75px;
 	position: relative;
 }
@@ -194,4 +195,26 @@ video.projec2 {
 p.description {
 	grid-column-start: 2;
 	grid-row-start: 1;
+}
+
+img.profile-picture {
+	border-radius: 180px;
+	height: 250px;
+	width: 250px;
+}
+
+div.profile-picture {
+	border-radius: 180px;
+	height: 250px;
+	width: 250px;
+	border: 15px solid #FEE5EC;
+	margin-left: 450px;
+}
+
+div.about {
+	margin-left: 300px;
+	margin-top: 70px;
+	height: 650px;
+	width: 575px;
+	background-color: #FEE5EC;
 }
