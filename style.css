@@ -185,7 +185,7 @@ div.info-card {
   font-family: "Nunito Sans";
 }
 
-div.contact-email, div.contact-github {
+div.contact-email, div.contact-github, div.contact-linkedin {
   height: 200px;
   width: 355px;
   margin: 70px;
@@ -200,4 +200,8 @@ main.contact {
 div.resume {
   margin: 50px;
   text-align: center;
+}
+
+img.github, img.linkedin {
+  margin: 25px;
 }
